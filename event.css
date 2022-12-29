@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@700&family=Rubik+Vinyl&display=swap');
+    *{
+        background-color: rgb(35, 163, 90);
+
+    }
+    .container{
+        display: flex;
+        justify-content: space-around;
+        color: rgb(255, 255, 255);
+    }
+    h1{
+        font-family: 'Anton', sans-serif;
+        font-size: 50px;
+        line-height: 1.1;
+        margin-bottom: 30px;
+        font-family: "Unbounded", cursive;
+    }
+    img{
+        width: 1000px;
+        height: 350px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    @media screen and (max-width: 768px) {
+        .container-wrapper {
+          padding-bottom: 50px;
+        }
+      
+        .container-wrapper,
+        figure {
+          width: 100%;
+        }
+      
+        figure {
+          height: 250px;
+        }
+      }

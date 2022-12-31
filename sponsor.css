@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&family=Unbounded:wght@200;400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.Sponsor {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  flex-wrap: wrap;
+}
+
+.Sponsor-wrapper {
+  width: 50%;
+  background-color: rgb(23, 150, 18);
+  padding: 10%;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 1.1;
+  margin-bottom: 30px;
+  font-family: "Unbounded",;
+}
+
+h2 {
+  margin-bottom: 100px;
+  font-weight: 200;
+}
+
+figure {
+  width: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.button {
+  margin-top: 20px;
+}
+
+.button a {
+  display: inline-block;
+  padding: 10px 50px;
+  background: green;
+  border-radius: 30px;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 800;
+  transition: all 0.5s ease;
+}
+
+.button a:hover {
+  background: black;
+  color: green;
+}
+
+@media screen and (max-width: 102px) {
+  .button a {
+    font-size: 20;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Sponsor-wrapper {
+    padding-bottom: 50px;
+  }
+
+  .Sponsor-wrapper,
+  figure {
+    width: 100
+  }
+
+ 
+  }
+
+
